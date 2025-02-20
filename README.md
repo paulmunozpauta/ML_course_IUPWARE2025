@@ -1,6 +1,6 @@
 <h1>Machine Learning Hydrological Forecasting</h1>
 
-<p>This repository provides hands-on Jupyter Notebooks for building machine learning models for hydrological forecasting. The project environment is managed using Poetry to ensure consistency across platforms.</p>
+<p>This repository provides hands-on Jupyter Notebooks for building machine learning models for hydrological forecasting. The project is designed to run seamlessly on <strong>Google Colab</strong>, with setup instructions provided inside the notebooks.</p>
 
 <hr>
 
@@ -17,122 +17,23 @@ ml-hydrological-forecasting/
 
 <hr>
 
-<h2>🚀 How to Run the Project</h2>
+<h2>🚀 Running the Project</h2>
 
-<p>You can run this project by either <strong>cloning the repository</strong> or <strong>copying the folder</strong> from GitHub to your computer.</p>
-
-<h3>🛠️ Prerequisites</h3>
-<ol>
-  <li><strong>Install Miniconda or Anaconda</strong>:
-    <ul>
-      <li>Download <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">Miniconda</a> (lightweight) or <a href="https://www.anaconda.com/" target="_blank">Anaconda</a> (full version).</li>
-      <li>Follow the installation instructions for your operating system (macOS, Linux, or Windows).</li>
-      <li>Verify that Conda is installed by running:
-        <pre><code>conda --version</code></pre>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Install Python 3.11</strong>:
-    <ul>
-      <li>If you have Conda installed, create an environment with Python 3.11 using:
-        <pre><code>conda create --name IUPWARE python=3.11</code></pre>
-      </li>
-    </ul>
-  </li>
-</ol>
+<p>This project is designed to be run on <strong>Google Colab</strong>. Follow the instructions provided in the notebooks to set up and install dependencies automatically.</p>
 
 <hr>
 
-<h2>🏗️ Step 1: Create a Conda Environment</h2>
-
-<p>To isolate your project environment and ensure compatibility, follow these steps:</p>
-
-<h3>For macOS, Linux, and Windows Users</h3>
-<ol>
-  <li>Create a new Conda environment named <code>IUPWARE</code> with Python 3.11:
-    <pre><code>conda create --name IUPWARE python=3.11</code></pre>
-  </li>
-  <li>Activate the environment:
-    <pre><code>conda activate IUPWARE</code></pre>
-  </li>
-</ol>
-
-<hr>
-
-<h2>🏗️ Step 2: Install Poetry</h2>
-<ol>
-  <li>Install Poetry in the Conda environment:
-    <pre><code>pip install poetry</code></pre>
-  </li>
-  <li>If succesful, verify the installation:
-    <pre><code>poetry --version</code></pre>
-  </li>
-</ol>
-
-<hr>
-
-<h2>🏗️ Step 3: Install Project Dependencies</h2>
-
-<h3>Option 1: Clone the Repository</h3>
-<ol>
-  <li>Open a terminal or command prompt.</li>
-  <li>Clone the repository to your computer:
-    <pre><code>git clone https://github.com/yourusername/ml-hydrological-forecasting.git
-cd ml-hydrological-forecasting
-    </code></pre>
-  </li>
-</ol>
-
-<h3>Option 2: Copy the Folder</h3>
-<ol>
-  <li>Download or copy the project folder from GitHub to your computer.</li>
-  <li>Navigate to the copied folder in your terminal:
-    <pre><code>cd /path/to/copied-folder/ml-hydrological-forecasting</code></pre>
-  </li>
-</ol>
-
-<h3>Install Dependencies</h3>
-<ol>
-  <li>Install the dependencies listed in <code>pyproject.toml</code>:
-    <pre><code>poetry install</code></pre>
-  </li>
-</ol>
-
-<hr>
-
-<h2>📊 Step 4: Run Jupyter Notebooks</h2>
-<ol>
-  <li>Start the Jupyter Notebook server:
-    <pre><code>jupyter notebook</code></pre>
-  </li>
-  <li>Open the notebook files in your browser and run the cells. The repository includes the following three Jupyter Notebooks:
-    <ul>
-      <li><code>1_ML_introduction.ipynb</code>: Introduction to Machine Learning, covering foundational concepts and simple ML models.</li>
-      <li><code>2_Satellite_precipitation.ipynb</code>: Working with satellite precipitation data, including preprocessing and visualization.</li>
-      <li><code>3_ML_forecasting.ipynb</code>: Advanced Machine Learning for hydrological forecasting, including model training and evaluation.</li>
-    </ul>
-  </li>
-</ol>
-
-<hr>
-
-<h2>❓ Troubleshooting</h2>
+<h2>📊 Jupyter Notebooks Available</h2>
+<p>The repository includes the following Jupyter Notebooks:</p>
 <ul>
-  <li><strong>Python Version Issues</strong>: Make sure you have Python 3.11 installed. Check your version:
-    <pre><code>python --version</code></pre>
-  </li>
-  <li><strong>Dependencies Not Installing</strong>: If Poetry isn’t installing the libraries, clear the Poetry cache and try again:
-    <pre><code>poetry cache clear pypi --all
-poetry install
-    </code></pre>
-  </li>
-  <li><strong>Environment Not Activating</strong>: Ensure you’re in the correct directory where <code>pyproject.toml</code> is located.</li>
+  <li><code>1_Satellite_precipitation.ipynb</code>: Working with satellite precipitation data, including preprocessing and visualization.</li>
+  <li><code>2_ML_modelling.ipynb</code>: Advanced Machine Learning for hydrological modelling/forecasting, including model training and evaluation.</li>
 </ul>
 
 <hr>
 
-<h2>⚙️ What Does This Project Use?</h2>
-<p>The environment is managed using Poetry, which ensures consistency and ease of dependency management. The dependencies used in this project are:</p>
+<h2>⚙️ Project Dependencies</h2>
+<p>The environment is managed using Poetry, ensuring consistency and ease of dependency management. The main dependencies used in this project are:</p>
 
 <ul>
   <li><code>scikit-learn ^1.3.0</code>: Machine learning algorithms</li>
@@ -152,7 +53,6 @@ poetry install
 </ul>
 
 <p>All dependencies are listed in the <code>pyproject.toml</code> file.</p>
-
 
 <hr>
 

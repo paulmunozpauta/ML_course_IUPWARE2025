@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ml-hydrological-forecasting"
+version = "0.2.0"
+description = "Hands-on course ML"
+authors = ["Paul <paul.munoz@vub.be>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false  # This prevents Poetry from trying to install the project as a package
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.3.0"
+numpy = "^1.25.0"
+pandas = "^2.0.3"
+matplotlib = "^3.8.0"
+jupyter = "^1.0.0"
+seaborn = "^0.12.2"
+openpyxl = "^3.1.2"
+descartes = "^1.1.0"
+shapely = "^2.0.1"
+geopandas = "^0.14.1"
+rasterio = "^1.3.9"
+rioxarray = "^0.15.0"
+xarray = "^2023.6.0"
+h5py = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

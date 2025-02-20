@@ -1,4 +1,4 @@
-<h1>Machine Learning Hydrological Forecasting</h1>
+<h1>IUPWARE 2025 refresher course: Machine Learning Hydrological Modelling</h1>
 
 <p>This repository provides hands-on Jupyter Notebooks for building machine learning models for hydrological forecasting. The project is designed to run seamlessly on <strong>Google Colab</strong>, with setup instructions provided inside the notebooks.</p>
 
